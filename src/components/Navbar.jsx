@@ -10,6 +10,7 @@ const Navbar = () => {
         <div className='nav-items' >
             <Link to='/' className='link'> <div > Home </div></Link>
             <Link to='/designers' className='link'> <div > Designers </div></Link>
+            <Link to='/recents' className='link'> <div > Recents </div></Link>
             <Link to='/contact' className='link'> <div > Contact Us </div></Link>
             < div style={
                 { display: 'flex', alignItems: 'center', position: 'relative' }} onClick={() => { setBrowse(!browse) }}> Browse < FaCaretDown

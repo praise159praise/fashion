@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <>
         <SliderComp />
-    <Cards />
     <Quote />
     <Footer />
     </>
