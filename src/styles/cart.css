@@ -1,0 +1,31 @@
+.cart{
+    position: relative;
+   
+    width: 1200px;
+    height: 700px;
+    background-color: var(--english-red);
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    font-family: Montserrat;
+    margin:50px auto ;
+
+}
+.cart > .image{
+    flex-grow: 7;
+}
+.cart > .info{
+    background-color: var(--spanish-pink);
+
+    flex-grow: 3;
+
+}
+.cart > .info > .top{
+    display: flex;
+    padding: 15px 25px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,20 @@
+
+.designers{
+    background-color: red;
+}
+.designer{
+    width: 500px;
+    padding: 25px;
+    font-family: Montserrat;
+
+    position: relative;
+}
+.designer > .name{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+}
+.designer > .desc{
+    margin-top: 5px;
+}
