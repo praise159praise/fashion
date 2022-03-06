@@ -59,10 +59,25 @@
 .cat-recent{
     position: relative;
     font-size: 30px;
-    height: 175px;
+    height: 205px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../assets/images/map.jpg);
+    color: white;
+    background: url(../assets/images/3.png);
     font-family: Montserrat;
+}
+.cat-recent::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) , black);
+}
+.cat-recent span{
+    position: relative;
+    z-index: 2;
 }

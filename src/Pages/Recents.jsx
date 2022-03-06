@@ -56,7 +56,7 @@ const Recents = () => {
   ]
   return (
     <div className='main-container'>
-      <Link to="/recents"><div className='cat-recent'>Recents</div></Link>
+      <Link to="/recents"><div className='cat-recent'><span>Recents</span></div></Link>
       <div className='card-container'>
         {
           displayed.map((e, index) =>

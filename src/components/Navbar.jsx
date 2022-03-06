@@ -19,9 +19,9 @@ const Navbar = () => {
                     className='caret'
                 /> {browse &&
                     <div className='browse-menu' >
-                        <div> Trads </div>
-                        <div> Formals </div>
-                        <div > Casuals </div>
+                       <Link to='/men'> <div> Men </div></Link>
+                       <Link to='/women'> <div> Women </div></Link>
+                       <Link to='/children'> <div> Children </div></Link>
 
                     </div>} </div >
         </div>

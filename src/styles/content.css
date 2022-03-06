@@ -38,8 +38,12 @@
 .content{
     margin: 80px ;
 }
+.content > .section1:nth-child(even){
+    flex-direction: row-reverse;
+}
 .content .section1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 10px;
 }
