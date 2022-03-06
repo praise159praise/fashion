@@ -9,7 +9,6 @@
 
 }
 .main-container{
-    padding: 20px;
     padding-bottom: 0;
 
 }
@@ -59,8 +58,11 @@
 }
 .cat-recent{
     position: relative;
-    margin-bottom: 15px;
     font-size: 30px;
-
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/images/map.jpg);
     font-family: Montserrat;
 }

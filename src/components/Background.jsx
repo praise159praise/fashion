@@ -1,13 +1,21 @@
 import React from 'react'
-import '../styles/bg.css'
+import '../styles/background.css'
+import bg1 from '../assets/video/bg1.mp4'
 const Background = () => {
   return (
-    <div className='bg'>
-        <div className='circle1' ></div>
-        <div className='circle2' ></div>
-        <div className='circle3' ></div>
-
-
+    <div className="video">
+      <video autoPlay loop>
+        <source src={bg1} type="video/mp4" />
+      </video>
+      <div className="content">
+        <div className="name">
+          Welcome to STEPH
+        </div>
+        <div className="desc">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quaerat earum sapiente suscipit velit repellendus, sit, accusamus officiis cupiditate necessitatibus porro, error nisi! Atque obcaecati repellat adipisci reiciendis expedita suscipit!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolores temporibus molestiae adipisci sequi architecto officiis obcaecati explicabo tenetur quis? Minima quae debitis eum labore deleniti officia exercitationem tenetur unde.
+        </div>
+        <div className="button"><span>Browse our catalogue</span></div>
+      </div>
     </div>
   )
 }

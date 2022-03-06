@@ -1,0 +1,45 @@
+.content .img{
+    position: relative;
+    width: 400px;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.199);
+    overflow: hidden;
+}
+.content .secdesc{
+    width: 950px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Slab', serif;
+
+}
+.secdesc>span:nth-child(1){
+    position: relative;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.secdesc>span:nth-child(1)::after{
+    position: absolute;
+    content: "";
+    width: 20%;
+    top: 100%;
+    left: 0;
+    height: 2px;
+    background-color: black;
+}
+.content video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.content{
+    margin: 80px ;
+}
+.content .section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
