@@ -6,27 +6,38 @@ const Children = () => {
   const displayed = [
     {
       vendorName: 'Ajah Stephanie',
-      date: '20 days ago'
+      date: '20 days ago',
+      liked: true
     },
     {
       vendorName: 'Ahmed Maimuna',
-      date: '10 days ago'
+      date: '10 days ago',
+      liked: true
+
     },
     {
       vendorName: 'Phillips Praise',
-      date: '8 mins ago'
+      date: '8 mins ago',
+      liked: true
+
     },
     {
       vendorName: 'Ajah Stephanie',
-      date: '20 days ago'
+      date: '20 days ago',
+      liked: true
+
     },
     {
       vendorName: 'Ahmed Maimuna',
-      date: '10 days ago'
+      date: '10 days ago',
+      liked: false
+
     },
     {
       vendorName: 'Phillips Praise',
-      date: '8 mins ago'
+      date: '8 mins ago',
+      liked: false
+
     },
     {
       vendorName: 'Ajah Stephanie',
@@ -60,7 +71,7 @@ const Children = () => {
       <div className='card-container'>
         {
           displayed.map((e, index) =>
-            <Card name={e.vendorName} date={e.date} />)
+            <Card name={e.vendorName} date={e.date} liked={e.liked}/>)
         }
       </div>
       <Footer />

@@ -55,6 +55,7 @@
 .date{
     font-size: 15px;
     color: rgb(167, 167, 167);
+    margin-bottom: 5px;
 }
 .cat-recent{
     position: relative;

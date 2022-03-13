@@ -6,53 +6,74 @@ const Recents = () => {
   const displayed = [
     {
       vendorName: 'Ajah Stephanie',
-      date: '20 days ago'
+      date: '20 days ago',
+      liked: true
     },
     {
       vendorName: 'Ahmed Maimuna',
-      date: '10 days ago'
-    },
-    {
-      vendorName: 'Phillips Praise',
-      date: '8 mins ago'
-    },
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago'
-    },
-    {
-      vendorName: 'Ahmed Maimuna',
-      date: '10 days ago'
-    },
-    {
-      vendorName: 'Phillips Praise',
-      date: '8 mins ago'
-    },
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago'
-    },
-    {
-      vendorName: 'Ahmed Maimuna',
-      date: '10 days ago'
-    },
-    {
-      vendorName: 'Phillips Praise',
-      date: '8 mins ago'
-    },
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago'
-    },
-    {
-      vendorName: 'Ahmed Maimuna',
-      date: '10 days ago'
-    },
-    {
-      vendorName: 'Phillips Praise',
-      date: '8 mins ago'
-    },
+      date: '10 days ago',
+      liked: true
 
+    },
+    {
+      vendorName: 'Phillips Praise',
+      date: '8 mins ago',
+      liked: true
+
+    },
+    {
+      vendorName: 'Ajah Stephanie',
+      date: '20 days ago',
+      liked: true
+
+    },
+    {
+      vendorName: 'Ahmed Maimuna',
+      date: '10 days ago',
+      liked: false
+
+    },
+    {
+      vendorName: 'Phillips Praise',
+      date: '8 mins ago',
+      liked: false
+
+    },
+    {
+      vendorName: 'Ajah Stephanie',
+      date: '20 days ago',
+      liked: true
+    },
+    {
+      vendorName: 'Ahmed Maimuna',
+      date: '10 days ago',
+      liked: true
+
+    },
+    {
+      vendorName: 'Phillips Praise',
+      date: '8 mins ago',
+      liked: true
+
+    },
+    {
+      vendorName: 'Ajah Stephanie',
+      date: '20 days ago',
+      liked: true
+
+    },
+    {
+      vendorName: 'Ahmed Maimuna',
+      date: '10 days ago',
+      liked: false
+
+    },
+    {
+      vendorName: 'Phillips Praise',
+      date: '8 mins ago',
+      liked: false
+
+    },
   ]
   return (
     <div className='main-container'>
@@ -60,7 +81,7 @@ const Recents = () => {
       <div className='card-container'>
         {
           displayed.map((e, index) =>
-            <Card name={e.vendorName} date={e.date} />)
+            <Card name={e.vendorName} date={e.date} liked={e.liked} />)
         }
       </div>
       <Footer />

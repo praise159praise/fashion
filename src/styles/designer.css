@@ -1,20 +1,33 @@
 
 .designers{
-    background-color: red;
+    padding: 30px 90px  ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .designer{
     width: 500px;
     padding: 25px;
+    padding-left: 80px;
     font-family: Montserrat;
-
     position: relative;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.164);
 }
 .designer > .name{
-    text-align: center;
     padding-bottom: 10px;
     font-size: 1.4rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.281);
 }
 .designer > .desc{
     margin-top: 5px;
+}
+.designer >.image{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    height: 120px;
+    width: 120px;
+    border: 10px solid var(--spanish-pink);
+    border-radius: 50%;
 }

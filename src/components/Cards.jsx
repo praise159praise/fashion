@@ -4,6 +4,7 @@ import img1 from '../assets/images/1.png'
 import img3 from '../assets/images/3.png'
 import img2 from '../assets/images/2.png'
 import { Link } from 'react-router-dom'
+import { FaHeart, FaRegHeart } from 'react-icons/fa'
 
 const displayed = [
   {
@@ -30,6 +31,7 @@ export const Card = (props) => {
         <div className='text-info'>
           <div className='vendor'>{props.name}</div>
           <div className='date'>{props.date}</div>
+          {props.liked ? <FaHeart color='red' /> : <FaRegHeart />}
         </div>
       </div>
     </div>
