@@ -19,13 +19,13 @@ const Designers = () => {
       name:'Euphoria Babies'
     },
     {
-      name:'Rue Cocaine'
+      name:'Precious fagbohun'
     },
     {
-      name:'Maddie Basic Bitch'
+      name:'Pelumi Bamgbose'
     },
     {
-      name:'kat fat pornstar'
+      name:'Aruegbe franklin'
     },
     
   ]
