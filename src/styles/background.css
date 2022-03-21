@@ -30,6 +30,7 @@
     margin-bottom: 25px;
     font-family: 'Dancing Script', cursive;
     color: white;
+    animation: slidein 1s forwards;
 }
 .video .desc{
     color: whitesmoke;
@@ -48,6 +49,7 @@
     background-color: white;
     overflow: hidden;
     cursor: pointer;
+    color: black;
 }
 .video .button::after{
     position: absolute;
@@ -70,4 +72,13 @@
 .video .button:hover::after{
     left: 0;
     z-index: 1;
+}
+
+@keyframes slidein{
+    from{
+        left: -100%;
+    }
+    to{
+        left: 0;
+    }
 }

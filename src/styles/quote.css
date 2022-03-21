@@ -1,7 +1,6 @@
 .main-quote{
     position: relative;
     width: 100%;
-    background: url('https://images.unsplash.com/photo-1568379526322-93aaea829725?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
     height: 400px;
     background-position: center;
     background-size: cover;

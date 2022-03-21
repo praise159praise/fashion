@@ -10,7 +10,7 @@ const Background = () => {
       </video>
       <div className="content">
         <div className="name">
-          Welcome to STEPH
+          Welcome to SUAVE
         </div>
         <div className="desc">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quaerat earum sapiente suscipit velit repellendus, sit, accusamus officiis cupiditate necessitatibus porro, error nisi! Atque obcaecati repellat adipisci reiciendis expedita suscipit!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolores temporibus molestiae adipisci sequi architecto officiis obcaecati explicabo tenetur quis? Minima quae debitis eum labore deleniti officia exercitationem tenetur unde.

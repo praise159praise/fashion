@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className='logo'>
-                <FaDotCircle size={10} /> STEPH
+                 SUAVE
             </div>
             <div className='category customers'>
                 <div className='header'>Customers</div>

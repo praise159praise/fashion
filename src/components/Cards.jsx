@@ -25,14 +25,15 @@ const displayed = [
 export const Card = (props) => {
   return (
     <div className='card'>
-      < div className='card-image'></div>
+      <img src={props.img} alt="" className='card-image' />
       <div className='below'>
         <div className='vendor-image'></div>
         <div className='text-info'>
           <div className='vendor'>{props.name}</div>
           <div className='date'>{props.date}</div>
-          {props.liked ? <FaHeart color='red' /> : <FaRegHeart />}
+          
         </div>
+        {props.liked ? <FaHeart color='red' /> : <FaRegHeart />}
       </div>
     </div>
   )
@@ -45,7 +46,7 @@ const Cards = () => {
       <div className='card-container'>
         {
           displayed.map((e, index) =>
-            <Card name={e.vendorName} date={e.date} />)
+            <Card name={e.vendorName} date={e.date} img = {img2}/>)
         }
       </div>
     </div>

@@ -34,7 +34,6 @@ const Designers = () => {
       <Link to="/designers"><div className='cat-recent'><span>Designers</span></div></Link>
 
       <div className='designers'>
-        <Designer name='lol' />
         {
           designers.map((e, index) =>
             <Designer name={e.name} />)

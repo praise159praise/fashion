@@ -6,12 +6,14 @@
     justify-content: space-between;
 }
 .designer{
-    width: 500px;
+    width: 800px;
     padding: 25px;
+    margin: 40px 20px;
+    line-height: 30px;
     padding-left: 80px;
     font-family: Montserrat;
     position: relative;
-    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.164);
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.068);
 }
 .designer > .name{
     padding-bottom: 10px;
@@ -28,6 +30,6 @@
     transform: translate(-50%, -50%);
     height: 120px;
     width: 120px;
-    border: 10px solid var(--spanish-pink);
+    border: 10px solid #2a2a28;
     border-radius: 50%;
 }

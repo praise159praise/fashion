@@ -3,7 +3,7 @@
    
     width: 1200px;
     height: 700px;
-    background-color: var(--english-red);
+    background-color: rgb(240, 235, 235);
     border-radius: 10px;
     display: flex;
     overflow: hidden;
@@ -13,9 +13,14 @@
 }
 .cart > .image{
     flex-grow: 7;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .cart > .info{
-    background-color: var(--spanish-pink);
+    background-color:#2a2a28;
+    color: white;
 
     flex-grow: 3;
 
@@ -28,4 +33,23 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.158);
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+.heading{
+    font-size: 40px;
+    margin: 30px;
+    font-family: 'Josefin Slab', serif;
+}
+.cartitem{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.144);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+.cartitem .item-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }

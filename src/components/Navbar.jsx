@@ -19,13 +19,13 @@ const Navbar = () => {
                     className='caret'
                 /> {browse &&
                     <div className='browse-menu' >
-                       <Link to='/men'> <div> Men </div></Link>
-                       <Link to='/women'> <div> Women </div></Link>
-                       <Link to='/children'> <div> Children </div></Link>
+                       <Link to='/men' className='linkitem'> <div> Men </div></Link>
+                       <Link to='/women' className='linkitem'> <div> Women </div></Link>
+                       <Link to='/children' className='linkitem'> <div> Children </div></Link>
 
                     </div>} </div >
         </div>
-        <Link to='/'><div className='logo' > <div> S </div> Steph</div ></Link>
+        <Link to='/'><div className='logo' > <div> S </div> SUAVE</div ></Link>
 
         <div className='right-side' >
             <Link to="/wishlist"><FaRegHeart /></Link>

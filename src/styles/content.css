@@ -6,6 +6,10 @@
     box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.199);
     overflow: hidden;
 }
+
+body{
+    background: rgb(219, 219, 209);
+}
 .content .secdesc{
     width: 950px;
     font-size: 30px;

@@ -84,14 +84,15 @@
     background-color: white;
     color: black;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
     animation: slideDown .2s forwards;
     overflow: hidden;
     z-index: 99;
 }
 
-.browse-menu>* {
-    padding: 10px;
-    margin-bottom: 5px;
+.linkitem{
+    padding: 10px 30px;
     transition: .5s;
     border-radius: 5px;
     color: black;
