@@ -5,51 +5,31 @@ import Footer from '../components/Footer'
 const Children = () => {
   const displayed = [
     {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1560880831-eb990ad24b12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpbGRyZW4lMjBmYXNoaW9ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-      liked: true
-    },
-    {
-      vendorName: 'Ahmed Maimuna',
+      vendorName: 'Hunter Schafer',
       date: '10 days ago',
-      img:'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpbGRyZW4lMjBmYXNoaW9ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+      img:'https://www.topweddingsites.com/wedding-blog/wp-content/uploads/2014/06/85a736e3cc9fc996d57aae33fa816c49-1.jpg',
       liked: true
-
     },
     {
-      vendorName: 'Phillips Praise',
-      date: '8 mins ago',
-      img:'https://images.unsplash.com/flagged/photo-1555895312-bbc472c964f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpbGRyZW4lMjBmYXNoaW9ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-      liked: true
-
-    },
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpbGRyZW4lMjBmYXNoaW9ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-      liked: true
-
-    },
-    {
-      vendorName: 'Ahmed Maimuna',
+      vendorName: 'Josephine Vernon',
       date: '10 days ago',
-      img:'https://images.unsplash.com/photo-1502808777105-c5f7b639feae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2hpbGRyZW4lMjBmYXNoaW9ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-      liked: false
-
-    },
-    {
-      vendorName: 'Phillips Praise',
-      date: '8 mins ago',
-      img:'https://images.unsplash.com/photo-1487033858121-f6f74a05c1de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpbGRyZW4lMjBmYXNoaW9ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-      liked: false
-
-    },
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1617627057301-7b03d1097672?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      img:'https://images.ctfassets.net/6m9bd13t776q/d3t5F6tcAIKU7zwlVUjfP/396c104c6011d796fe90d4d5a48cc4b0/16-cat-jack-toddler-boy-navy-suit-750x900.jpg?q=75',
       liked: true
+
+    },
+    {
+      vendorName: 'Alexander Wang',
+      date: '8 mins ago',
+      img:'https://cdn0.hitched.co.uk/articles/images/2/1/0/1/img_91012/kurta.jpg',
+      liked: true
+
+    },
+    {
+      vendorName: 'Malcom Kelvin',
+      date: '20 days ago',
+      img:'https://www.dhresource.com/0x0/f2/albu/g5/M00/A9/19/rBVaJFitQvKAcRxoAAQQL9dRt9Q873.jpg',
+      liked: true
+
     },
     {
       vendorName: 'Ahmed Maimuna',
@@ -59,31 +39,10 @@ const Children = () => {
 
     },
     {
-      vendorName: 'Phillips Praise',
+      vendorName: 'Sara Dominic',
       date: '8 mins ago',
-      img:'https://images.unsplash.com/photo-1543854704-2b1b011701e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      img:'https://media.boohoo.com/i/boohoo/m5053190780455_cream_xl.jpeg',
       liked: true
-
-    },
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1541580620-23a640b30338?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80',
-      liked: true
-
-    },
-    {
-      vendorName: 'Ahmed Maimuna',
-      date: '10 days ago',
-      img:'https://images.unsplash.com/photo-1529776292731-c2246c65df5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-      liked: false
-
-    },
-    {
-      vendorName: 'Phillips Praise',
-      date: '8 mins ago',
-      img:'https://images.unsplash.com/photo-1476234251651-f353703a034d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80',
-      liked: false
 
     },
   ]

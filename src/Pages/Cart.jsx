@@ -2,7 +2,6 @@ import React from 'react'
 import '../styles/cart.css'
 import { IoMdClose } from 'react-icons/io'
 import Footer from '../components/Footer'
-import { Card } from '../components/Cards'
 import { Link } from 'react-router-dom'
 import img2 from '../assets/images/2.png'
 
@@ -22,28 +21,7 @@ export const CartItem = () => {
 }
 
 const Cart = () => {
-  const cartItems = [
-    {
-      name:'Mens clothing 1',
-      image:'',
-      quantity:1,
-      amount:4500
-    },
-    {
-      name:'Mens clothing 1',
-      image:'',
-      quantity:1,
-      amount:9500
-
-    },
-    {
-      name:'Mens clothing 1',
-      image:'',
-      quantity:1,
-      amount:400
-
-    }
-  ]
+  
   return (
     <>
     <Link to="/cart"><div className='cat-recent'><span>CART</span></div></Link>

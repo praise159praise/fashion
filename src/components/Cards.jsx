@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/cards.css'
-import img1 from '../assets/images/1.png'
-import img3 from '../assets/images/3.png'
+
 import img2 from '../assets/images/2.png'
 import { Link } from 'react-router-dom'
-import { FaHeart, FaRegHeart } from 'react-icons/fa'
+import { FaHeart, FaOpencart, FaRegHeart } from 'react-icons/fa'
+import { FiShoppingCart } from 'react-icons/fi'
 
 const displayed = [
   {
@@ -34,7 +34,10 @@ export const Card = (props) => {
           
         </div>
         {props.liked ? <FaHeart color='red' /> : <FaRegHeart />}
+        <FiShoppingCart/>
+
       </div>
+      
     </div>
   )
 }

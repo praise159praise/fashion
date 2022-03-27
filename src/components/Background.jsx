@@ -10,10 +10,10 @@ const Background = () => {
       </video>
       <div className="content">
         <div className="name">
-          Welcome to SUAVE
+          This is SUAVE
         </div>
         <div className="desc">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quaerat earum sapiente suscipit velit repellendus, sit, accusamus officiis cupiditate necessitatibus porro, error nisi! Atque obcaecati repellat adipisci reiciendis expedita suscipit!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolores temporibus molestiae adipisci sequi architecto officiis obcaecati explicabo tenetur quis? Minima quae debitis eum labore deleniti officia exercitationem tenetur unde.
+        Suave exists for the love of fashion. We believe in empowering individuality. Our mission is to be the global platform to lessen the gap between fashion designers and clients. Shoppers, look through the amazing collections and to our beautiful and dutiful designers, let your imagination run wild!!
         </div>
         <Link to = '/recents'><div className="button"><span>Browse our catalogue</span></div></Link>
       </div>

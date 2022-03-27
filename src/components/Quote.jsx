@@ -8,7 +8,10 @@ const Quote = () => {
             weekly updated Catalogue
         </div>
         <div className='desc'>
-               Fashion, Services and trends, Easily Obtainable
+               FASHION AT YOUR FINGER TIPS 
+        </div>
+        <div className='quote'>
+        Get up to 30% off new arrivals
         </div>
     </div>
   )

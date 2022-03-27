@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { FaRegHeart, FaCartPlus, FaUserAlt, FaCaretDown } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import '../styles/navbar.css'
+import { auth } from '../fireConfig';
+import { signOut } from 'firebase/auth';
 
 const Navbar = () => {
     const [browse, setBrowse] = useState(false)
@@ -31,15 +33,16 @@ const Navbar = () => {
             <Link to="/wishlist"><FaRegHeart /></Link>
             <Link to="/cart"><FaCartPlus /></Link>
             <Link to="/user"><FaUserAlt  /></Link>
+            <div className="logout" onClick={async ()=>{
+                await signOut(auth)
+            }}>
+                Log Out
+            </div>
         </div>
 
     </div>;
 };
 
-const Search = () => {
-    return (
-        <div>Hello we are searching </div>
-    )
-}
+
 
 export default Navbar;

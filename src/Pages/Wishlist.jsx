@@ -4,101 +4,69 @@ import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 const Recents = () => {
   const displayed = [
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1560880831-eb990ad24b12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpbGRyZW4lMjBmYXNoaW9ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-      liked: true
-    },
-    {
-      vendorName: 'Ahmed Maimuna',
-      date: '10 days ago',
-      img:'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpbGRyZW4lMjBmYXNoaW9ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-      liked: true
+    
+    // {
+    //   vendorName: 'Sara Dominic',
+    //   date: '20 days ago',
+    //   img: 'https://images.unsplash.com/photo-1550614000-4895a10e1bfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+    //   liked: true
 
-    },
-    {
-      vendorName: 'Phillips Praise',
-      date: '8 mins ago',
-      img:'https://images.unsplash.com/flagged/photo-1555895312-bbc472c964f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpbGRyZW4lMjBmYXNoaW9ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-      liked: true
+    // },
+    // {
+    //   vendorName: 'Josephine Vernon',
+    //   date: '10 days ago',
+    //   img: 'https://cdn-images.farfetch-contents.com/16/58/63/98/16586398_32607410_1000.jpg',
+    //   liked: false
 
-    },
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpbGRyZW4lMjBmYXNoaW9ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-      liked: true
+    // },
+    // {
+    //   vendorName: 'Malcom Kelvin',
+    //   date: '8 mins ago',
+    //   img: 'https://cdn-static.farfetch-contents.com/cms-cm/za/media/3423722/data/432753956b6210db8bd2a978c174507d.jpg?ratio=3x4_three-columns&minWidth=409',
+    //   liked: false
 
-    },
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1512353087810-25dfcd100962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFsZSUyMGZhc2hpb24lMjBtb2RlbHxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60',
-      liked: true
-    },
-    {
-      vendorName: 'Ahmed Maimuna',
-      date: '10 days ago',
-      img:'https://images.unsplash.com/photo-1510951475896-ce8cacb1899f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFsZSUyMGZhc2hpb24lMjBtb2RlbHxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60',
-      liked: true
+    // },
+    // {
+    //   vendorName: 'Josephine Vernon',
+    //   date: '20 days ago',
+    //   img: 'https://cdn-images.farfetch-contents.com/12/53/71/69/12537169_12003145_1000.jpg',
+    //   liked: true
+    // },
+    // {
+    //   vendorName: 'Leon Rodgers',
+    //   date: '10 days ago',
+    //   img: 'https://cdn-images.farfetch-contents.com/18/08/03/48/18080348_38337821_480.jpg',
+    //   liked: true
 
-    },
-    {
-      vendorName: 'Phillips Praise',
-      date: '8 mins ago',
-      img:'https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80',
-      liked: true
+    // },
+    // {
+    //   vendorName: 'Josephine Vernon',
+    //   date: '8 mins ago',
+    //   img: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1598282112-54524210-061-a-1598282094.jpg?crop=1xw:1xh;center,top&resize=768:*',
+    //   liked: true
 
-    },
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1536294738309-2fc595e788fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFsZSUyMGZhc2hpb24lMjBtb2RlbHxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60',
-      liked: true
+    // },
+    // {
+    //   vendorName: 'Sara Dominic',
+    //   date: '20 days ago',
+    //   img: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1632338228-76f99424-d550-44cc-9fae-a4b9a8b0a8f6-1632338220.jpg?crop=1xw:0.9782608695652174xh;center,top&resize=768:*',
+    //   liked: true
 
-    },
-    {
-      vendorName: 'Ahmed Maimuna',
-      date: '10 days ago',
-      img:'https://images.unsplash.com/photo-1527010154944-f2241763d806?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMGZhc2hpb24lMjBtb2RlbHxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60',
-      liked: false
+    // },
+    // {
+    //   vendorName: 'Hunter Schafer',
+    //   date: '10 days ago',
+    //   img: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1632340756-screen-shot-2021-09-22-at-3-58-07-pm-1632340742.png?crop=0.9909015715467328xw:1xh;center,top&resize=768:*',
+    //   liked: false
 
-    },
-    {
-      vendorName: 'Phillips Praise',
-      date: '8 mins ago',
-      img:'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmFzaGlvbnxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60',
-      liked: true
+    // },
+    // {
+    //   vendorName: 'Alexander Wang',
+    //   date: '8 mins ago',
+    //   img: 'https://asset1.cxnmarksandspencer.com/is/image/mands/20210527_LF_MW_SUITS-FOR-GROOMS-AND-GUESTS-SEO_1?$editorial_780x780$',
+    //   liked: false
 
-    },
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1550614000-4895a10e1bfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-      liked: true
-
-    },
-    {
-      vendorName: 'Ahmed Maimuna',
-      date: '10 days ago',
-      img:'https://images.unsplash.com/photo-1545291730-faff8ca1d4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-      liked: false
-
-    },
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80',
-      liked: true
-    },
-    {
-      vendorName: 'Ahmed Maimuna',
-      date: '10 days ago',
-      img:'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80',
-      liked: true
-
-    },
+    // },
   ]
   return (
     <div className='main-container'>
@@ -106,7 +74,7 @@ const Recents = () => {
       <div className='card-container'>
         {
           displayed.map((e, index) =>
-            e.liked && <Card name={e.vendorName} date={e.date} liked={e.liked}/>)
+            e.liked && <Card name={e.vendorName} date={e.date} liked={e.liked} img={e.img}/>)
         }
       </div>
       <Footer />

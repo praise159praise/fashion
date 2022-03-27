@@ -41,7 +41,7 @@
     color: white;
 }
 
-.nav-items>div, .nav-items>.link {
+.nav-items>div, .nav-items>.link, .logout {
     margin: 0 15px;
     padding: 15px;
     transition: .5s;
@@ -49,7 +49,7 @@
     text-decoration: none;
     color: white;
 }
-.nav-items>div:hover, .nav-items>.link:hover{
+.nav-items>div:hover, .nav-items>.link:hover, .logout:hover{
     background: rgba(128, 128, 128, 0.37);
 }
 
@@ -118,4 +118,11 @@
 .browse-menu>*:hover {
     background-color: rgba(128, 128, 128, 0.582);
     cursor: pointer;
+}
+.logout{
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 13px;
 }

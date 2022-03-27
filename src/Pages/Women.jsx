@@ -5,77 +5,50 @@ import Footer from '../components/Footer'
 const Women = () => {
   const displayed = [
     {
-      vendorName: 'Ajah Stephanie',
+      vendorName: 'Sara Dominic',
       date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmFzaGlvbnxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60',
+      img: 'https://images.unsplash.com/photo-1550614000-4895a10e1bfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
       liked: true
+
     },
     {
-      vendorName: 'Ahmed Maimuna',
+      vendorName: 'Josephine Vernon',
       date: '10 days ago',
-      img:'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80',
-      liked: true
-
-    },
-    {
-      vendorName: 'Phillips Praise',
-      date: '8 mins ago',
-      img:'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmFzaGlvbnxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60',
-      liked: true
-
-    },
-    {
-      vendorName: 'Ajah Stephanie',
-      date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1550614000-4895a10e1bfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-      liked: true
-
-    },
-    {
-      vendorName: 'Ahmed Maimuna',
-      date: '10 days ago',
-      img:'https://images.unsplash.com/photo-1545291730-faff8ca1d4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      img: 'https://cdn-images.farfetch-contents.com/16/58/63/98/16586398_32607410_1000.jpg',
       liked: false
 
     },
     {
-      vendorName: 'Ajah Stephanie',
+      vendorName: 'Josephine Vernon',
       date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80',
+      img: 'https://cdn-images.farfetch-contents.com/12/53/71/69/12537169_12003145_1000.jpg',
       liked: true
     },
     {
-      vendorName: 'Ahmed Maimuna',
+      vendorName: 'Leon Rodgers',
       date: '10 days ago',
-      img:'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80',
+      img: 'https://cdn-images.farfetch-contents.com/18/08/03/48/18080348_38337821_480.jpg',
       liked: true
 
     },
     {
-      vendorName: 'Phillips Praise',
+      vendorName: 'Josephine Vernon',
       date: '8 mins ago',
-      img:'https://images.unsplash.com/photo-1601762603339-fd61e28b698a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      img: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1598282112-54524210-061-a-1598282094.jpg?crop=1xw:1xh;center,top&resize=768:*',
       liked: true
 
     },
     {
-      vendorName: 'Ajah Stephanie',
+      vendorName: 'Sara Dominic',
       date: '20 days ago',
-      img:'https://images.unsplash.com/photo-1601762603339-fd61e28b698a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      img: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1632338228-76f99424-d550-44cc-9fae-a4b9a8b0a8f6-1632338220.jpg?crop=1xw:0.9782608695652174xh;center,top&resize=768:*',
       liked: true
 
     },
     {
-      vendorName: 'Ahmed Maimuna',
+      vendorName: 'Hunter Schafer',
       date: '10 days ago',
-      img:'https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80',
-      liked: false
-
-    },
-    {
-      vendorName: 'Phillips Praise',
-      date: '8 mins ago',
-      img:'https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80',
+      img: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1632340756-screen-shot-2021-09-22-at-3-58-07-pm-1632340742.png?crop=0.9909015715467328xw:1xh;center,top&resize=768:*',
       liked: false
 
     },

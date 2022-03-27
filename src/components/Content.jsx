@@ -13,10 +13,9 @@ const Content = () => {
                     </video>
                 </div>
 
-                <div className="secdesc"><span>Heading</span>
+                <div className="secdesc"><span>Dress your best </span>
                     <span>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem voluptates eos earum quaerat laudantium dolores quod, error atque aut libero iste dolor labore autem et nesciunt corrupti iusto nam voluptate
-                        .</span>
+                    Add a touch of sunshine to your style with the hottest minis, maxis and more. Few items to energize your outfit, quite like a beautiful new shirt.</span>
                 </div>
             </div>
             <div className="section1">
@@ -26,9 +25,9 @@ const Content = () => {
                     </video>
                 </div>
 
-                <div className="secdesc"><span>Heading</span>
+                <div className="secdesc"><span>Go for bold</span>
                     <span>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem voluptates eos earum quaerat laudantium dolores quod, error atque aut libero iste dolor labore autem et nesciunt corrupti iusto nam voluptate
+                        Our designers are certainly not afraid to play with colors, and invent brand new ways of wearing, styling and piecing together new looks to spice up your wardrobe. Take a look at our recent collections in the recent tab and see what you find. 
                         .</span>
                 </div>
             </div>
@@ -39,9 +38,9 @@ const Content = () => {
                     </video>
                 </div>
 
-                <div className="secdesc"><span>Heading</span>
+                <div className="secdesc"><span>New In</span>
                     <span>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem voluptates eos earum quaerat laudantium dolores quod, error atque aut libero iste dolor labore autem et nesciunt corrupti iusto nam voluptate
+                      New collections will be available every week. Check in regularly so you do not miss out on a SALE!
                         .</span>
                 </div>
             </div>
