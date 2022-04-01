@@ -2,6 +2,10 @@ import React from 'react'
 import { Card } from '../components/Cards'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
+import { useEffect, useState } from 'react/cjs/react.development'
+import { collection, doc, getDoc, setDoc, updateDoc, serverTimestamp, addDoc, query, where, getDocs, onSnapshot } from 'firebase/firestore'
+import { auth, db, storage } from '../fireConfig'
+import secondsToDhms from '../timeformatter'
 const Children = () => {
   const displayed = [
     {
@@ -46,13 +50,26 @@ const Children = () => {
 
     },
   ]
+  const [clothes, setClothes] = useState([])
+ 
+
+  useEffect(()=>{
+    getClothes()
+
+  })
+  const getClothes = async () => {
+    const q = query(collection(db, 'clothes'), where("category", "==", 'children'))
+    const querySnapshot = await getDocs(q);
+    const temp = []
+    setClothes(querySnapshot.docs.map((doc) => ({...doc.data(), id:doc.id})))
+  }
   return (
     <div className='main-container'>
       <Link to="/children"><div className='cat-recent'><span>Children</span></div></Link>
       <div className='card-container'>
         {
-          displayed.map((e, index) =>
-            <Card name={e.vendorName} date={e.date} liked={e.liked} img = {e.img}/>)
+          clothes.map((e, index) =>
+          <Card name={e.vendorName} date={secondsToDhms(e.createDate.seconds)+' ago'} img={e.picUrl} key = {e.id} id={e.id}/>)
         }
       </div>
       <Footer />

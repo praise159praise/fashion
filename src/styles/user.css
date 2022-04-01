@@ -40,6 +40,21 @@
     font-weight: 900;
     text-transform: uppercase;
 }
+.user-details .name {
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.user-details .name input{
+    margin-top: 5px;
+    background-color: var(--english-red);
+    height: 30px;
+    color: white;
+    padding: 5px;
+    border: none;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.397);
+    /* border: 1px solid var(--english-red); */
+    border-radius: 50px;
+}
 
 .user-area .icons {
     display: flex;
@@ -176,7 +191,17 @@
 .cloth{
     position: relative;
     width: 250px;
-    height: 500px;
     margin: 10px;
     background-color: #2a2a28;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.404);
+    transition: .5s;
+
+}
+
+.add-header{
+    font-family: 'Josefin Slab', serif;
+    font-size: 50px;
+}
+.cloth:hover{
+    box-shadow: 0 50px 40px rgba(0, 0, 0, 0.171);
 }

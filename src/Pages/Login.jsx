@@ -29,7 +29,7 @@ const Login = (props) => {
                 
                 const userRef = doc(db, 'userdata', cred.user.uid)
 
-                setDoc(userRef, {isVendor : false}, { email : email} )
+                setDoc(userRef, {isVendor : false, email : email, username: email} )
                 
                 e.target.reset()
             })
